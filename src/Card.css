@@ -1,4 +1,21 @@
+@font-face {
+    font-family: 'Futuristic Armour Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futuristic Armour Regular'), url('Futuristic Armour.woff') format('woff');
+}
+
 .card-size {
     height: 350px;
-    width: 310px;
+    width: 300px;
+    overflow: scroll;
+}
+
+.card-color {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.robo-info {
+    font-family: 'Futuristic Armour Regular';
+    color: #ffffff;
 }
